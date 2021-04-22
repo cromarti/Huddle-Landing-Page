@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-mobile.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    width: 80%;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.image-container > .logo > img {
+    width: 41%;
+    margin-bottom: 70px;
+}
+
+.image-container > .header > img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.content-container {
+    color: white;
+    text-align: center;
+}
+
+.content-container > h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-container > p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    margin: 20px 0;
+    margin-bottom: 30px;
+}
+
+.content-container > button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85em;
+    color:hsl(257, 40%, 49%);
+    width: 225px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.content-container > .social {
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 25px;
+    left: 30%;
+}
+
+.content-container > .social > i {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-align: center;
+}
